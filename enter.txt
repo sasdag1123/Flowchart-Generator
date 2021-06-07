@@ -1,7 +1,14 @@
-OUTPUT "are we insane?"
-INPUT ans
-IF ans = "yes" THEN
-	OUTPUT "correct"
-ELSE
-	OUTPUT "incorrect"
+START
+	highest = 0
+	topstudent=null
+	count=0
+	REPEAT
+	  IF studentmark >highest
+	      highest = studentmark
+	        top student = studentname
 ENDIF
+count++
+   UNTIL count = number of students
+   PRINT highest
+   Print topstudent
+STOP
